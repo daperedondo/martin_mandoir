@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=",W#9^FRG/6N}scN0R-)z" x="0" y="0"><statement name="HANDLER"><block type="makerbit_infrared_connect_receiver" id="om,~{XJ2F^#XyDB|G,zQ"><field name="pin">DigitalPin.P16</field><field name="protocol">IrProtocol.Keyestudio</field><next><block type="device_show_leds" id="uHHH#FkiR)wycq3Oag2X"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_forever" id="*As9zkaVFr8~-yGpV9t^" x="209" y="105"/><block type="makerbit_infrared_on_ir_button" id="*@vjWh:4K11Dyp[Axp[6" x="210" y="232"><field name="button">IrButton.Up</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="6,$|m~z/IPu6C/:h~wDp"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block></xml>
