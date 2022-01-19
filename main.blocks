@@ -10,4 +10,34 @@
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></statement></block></xml>
+        `</field><next><block type="RobotCar_Keyestudio_Motors_steer" id="?vjDY_]aRH.5|JdmuTZ!"><value name="steering"><shadow type="turnRatioPicker" id="nXKC!V!P*33z7DP!5$5n"><field name="turnratio">0</field></shadow></value><value name="speed"><shadow type="speedPicker" id="?(%P#jFbXeexo*FZYFOI"><field name="speed">50</field></shadow></value><next><block type="RobotCar_Keyestudio_Motors_move" id="%+W}tnJti)4Qn.RTNlhX"><value name="speed"><shadow type="speedPicker" id="K$aCS)PB49yNIpx_{_5E"><field name="speed">50</field></shadow></value></block></next></block></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="p64#-Hdc#kq;xXW`[mWW" x="514" y="229"><field name="button">IrButton.Up</field><field name="action">IrButtonAction.Released</field><statement name="HANDLER"><block type="device_show_leds" id="B:|:eMl;=)t8U}N~U6J5"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="RobotCar_Keyestudio_Motors_stop" id="*#Azp#FEb{e?#s_~LRFU"/></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="*pK;VU_r`78PY4ol}4h3" x="206" y="679"><field name="button">IrButton.Down</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="2Yt6H]sAU?H.OamF,ac0"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="RobotCar_Keyestudio_Motors_move" id="z9j=Y08,poTF,+$Y@NrQ"><value name="speed"><shadow type="speedPicker" id="$P+|8QCYbCo9;{AXfPl6"><field name="speed">-50</field></shadow></value></block></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="e0Ldj}+b/:H~!j^8z|Ib" x="526" y="669"><field name="button">IrButton.Down</field><field name="action">IrButtonAction.Released</field><statement name="HANDLER"><block type="device_show_leds" id="dq~AdKHXyQa-ht(/grc^"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="RobotCar_Keyestudio_Motors_stop" id="4lTK*`)WArGQ=OjlQlN)"/></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="J9C|baUKL(v?39asEi9%" x="206" y="1052"><field name="button">IrButton.Right</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="t+CS}|*Dh=7=D?*Ov;k6"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . . . . . 
+        . . # . . 
+        . . . # #
+        `</field><next><block type="RobotCar_Keyestudio_Motors_spin" id="lkzd7d#t|-v/QhC5O}kc"><value name="speed"><shadow type="turnRatioPicker" id="j1u=.f)RS1!SdAf_Du$."><field name="turnratio">100</field></shadow></value><next><block type="RobotCar_Keyestudio_Motors_move" id="yY5NfGOaopGqbP9H5~%{"><value name="speed"><shadow type="speedPicker" id="!BIjE8|]F`|~G2iM9o_M"><field name="speed">50</field></shadow></value></block></next></block></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="kdlyTGz37`=-q~Ku9Wjh" x="539" y="1052"><field name="button">IrButton.Ok</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="I,,XQ:$@LStm*2VpI5;E"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="RobotCar_Keyestudio_Motors_stop" id="@f|)^l1l|ZTIxfkFQ,ss"/></next></block></statement></block></xml>
